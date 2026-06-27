@@ -1,0 +1,58 @@
+{
+    "name": "amphp/dependency-graph",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amp\\DependencyGraph\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Niklas Keller",
+            "email": "me@kelunik.com"
+        }
+    ],
+    "require-dev": {
+        "deptrac/deptrac": "^4.6"
+    },
+    "require": {
+        "amphp/amp": "^3.1",
+        "amphp/byte-stream": "^2.1",
+        "amphp/cache": "^2.0",
+        "amphp/cluster": "^2.0",
+        "amphp/dns": "^2.4",
+        "amphp/file": "^3.0",
+        "amphp/hpack": "^3.2",
+        "amphp/http": "^2.1",
+        "amphp/http-client": "^5.3",
+        "amphp/http-client-cookies": "^2.0",
+        "amphp/http-client-guzzle-adapter": "^1.1",
+        "amphp/http-client-psr7": "^1.1",
+        "amphp/http-server": "^3.4",
+        "amphp/http-server-form-parser": "^2.0",
+        "amphp/http-server-router": "^2.0",
+        "amphp/http-server-session": "^3.0",
+        "amphp/http-server-static-content": "^2.0",
+        "amphp/http-tunnel": "^2.0",
+        "amphp/log": "^2.0",
+        "amphp/mysql": "^3.1",
+        "amphp/parallel": "^2.4",
+        "amphp/parallel-functions": "^2.0",
+        "amphp/parser": "^1.1",
+        "amphp/pipeline": "^1.2",
+        "amphp/postgres": "^2.2",
+        "amphp/process": "^2.1",
+        "amphp/redis": "^2.0",
+        "amphp/rpc": "^2.0",
+        "amphp/serialization": "^1.1",
+        "amphp/socket": "^2.4",
+        "amphp/sql": "^2.1",
+        "amphp/sql-common": "^2.0",
+        "amphp/sync": "^2.3",
+        "amphp/websocket": "^2.0",
+        "amphp/websocket-client": "^2.0",
+        "amphp/websocket-server": "^4.0",
+        "amphp/windows-registry": "^1.0"
+    }
+}
