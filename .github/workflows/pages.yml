@@ -37,7 +37,7 @@ jobs:
 
       - run: composer install --no-interaction --prefer-dist
 
-      - run: php generate-deptrac.php && php generate-graph.php
+      - run: php generate-packages.php && php generate-deptrac.php && php generate-graph.php
 
       - uses: actions/setup-node@v4
         with:
